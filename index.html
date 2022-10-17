@@ -4,39 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Team 31 Meeting minutes</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <h1>Thursday Meeting Notes</h1>
+        <h1 style="position: static;">Thursday Meeting Notes</h1>
         <aside>
             <h2>Author: ADAM ALEMI</h2>
         </aside>
         <nav>
             <ul>
-                <li><a href="about.html">Youtube link for the meeting</a></li>
-                <li><a href="projects.html">logistics Google drive </a></li>
+                <li><a href="https://youtu.be/p4H_vrQV6Sw">Youtube link</a></li>
+                <li><a href="https://youtu.be/fPO76Jlnz6c">logistics Google</a></li>
             </ul>
         </nav>
         <hr>
     </header>
     <main>
-        <!--main picture-->
-        <a href="#"><img src="https://i.pinimg.com/originals/f2/97/f0/f297f0953eda6761ba034d46c3ccb169.jpg" alt="Meeting Main picture"></a>
-        <h4>Meeting Video recording</h4>
 
-        <video width="320" height="240" controls>
-            <source src="movie.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
-        <h4>Meeting audio recording</h4>
+        <section class="sec_pic">
+            <section>
+                <!--main picture-->
+                <a href="#"><img style="height:350px; width:400px;" src="https://i.pinimg.com/originals/f2/97/f0/f297f0953eda6761ba034d46c3ccb169.jpg" alt="Meeting Main picture"></a>
+            </section>
 
-        <audio controls>
-<source src="horse.ogg" type="audio/ogg">
-<source src="horse.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+            <section>
+                <h4>Meeting Video recording</h4>
+                <video style="max-width: 500px; max-height: 600px; position: relative;" width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
+            <section>
+                <h4>Meeting audio recording</h4>
+                <audio controls>
+                    <source src="horse.ogg" type="audio/ogg">
+                    <source src="horse.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+
+        </section>
+
+
         <h4>List of attendees of the meeting</h4>
         <ol>
             <li>Adam</li>
@@ -117,7 +130,7 @@ Your browser does not support the audio element.
             </table>
         </form>
         <Fieldset>
-            <legend>(Optional)</legend>
+            <legend>Contact</legend>
             <form>
                 <label for="contactways">Choose the best way to be contacted back:</label>
                 <input list="contactway" name="contactway" id="contactways">
