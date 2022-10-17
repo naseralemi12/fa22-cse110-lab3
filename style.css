@@ -1,0 +1,59 @@
+/* all css codes in this file */
+
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0.1%;
+    margin: 0%;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: rgb(208, 182, 182) !important;
+}
+
+nav ul {
+    padding: .5em;
+    list-style-type: none;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+/* this is Pseudo class */
+
+nav ul li:hover {
+    background-color: #fff;
+    font-size: 30px;
+}
+
+
+/*------ this is for large screens-------------- */
+
+@media screen and (min-width: 768px) {
+    /* ------ this is for pictures and videos large screens -------*/
+    .sec_pic {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+}
